@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "912066360296",
+    "project_id": "kickers-project",
+    "storage_bucket": "kickers-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912066360296:android:56118b2dbcf620f3712a5d",
+        "android_client_info": {
+          "package_name": "com.kickers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912066360296-913j6srjhb9jdgi529lq63u0vqtne4lv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kickers",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "912066360296-87vr5t8ts8iuvh2isleq2s96e496q666.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFM8yHPtP9heEDxW4OmyvdDbyw3VYUq10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912066360296-87vr5t8ts8iuvh2isleq2s96e496q666.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

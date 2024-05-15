@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>912066360296-epaqrbtpellitfub43jq6752g51a0qk0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.912066360296-epaqrbtpellitfub43jq6752g51a0qk0</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>912066360296-913j6srjhb9jdgi529lq63u0vqtne4lv.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBrx9RkZea1u8WPd1sBd6dx2_xV_hzUkyQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>912066360296</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kickers</string>
+	<key>PROJECT_ID</key>
+	<string>kickers-project</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kickers-project.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:912066360296:ios:692588f9b5f69d19712a5d</string>
+</dict>
+</plist>
