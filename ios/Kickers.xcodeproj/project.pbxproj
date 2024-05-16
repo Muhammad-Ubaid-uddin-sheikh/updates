@@ -24,6 +24,8 @@
 		CD515D1963A649E68A51CA13 /* Satoshi-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4148C30CF5841598469E6ED /* Satoshi-BlackItalic.ttf */; };
 		CEAD59996DE2448AA3631B0E /* Satoshi-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DFDF5D39D054D549D00AD0C /* Satoshi-LightItalic.ttf */; };
 		E36859E62BF4230500EE589A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E36859E42BF4230500EE589A /* GoogleService-Info.plist */; };
+		E3A874E42BF6807900976E64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A874E32BF6807900976E64 /* UIKit.framework */; };
+		E3A874E62BF681BE00976E64 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A874E52BF681BE00976E64 /* XcodeKit.framework */; };
 		E3FD95952BB375D1002F4660 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = E3FD95942BB375D0002F4660 /* Fonts */; };
 		F4212915BAFE4B7F9E5FD810 /* Satoshi-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B4D47E69CCD4E8AA3F971DB /* Satoshi-Medium.ttf */; };
 		F8521E22691B4AACA61095F8 /* Satoshi-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB09566C229A48DEAEBF92D1 /* Satoshi-MediumItalic.ttf */; };
@@ -69,6 +71,8 @@
 		BB09566C229A48DEAEBF92D1 /* Satoshi-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-MediumItalic.ttf"; path = "../src/assets/fonts/Satoshi-MediumItalic.ttf"; sourceTree = "<group>"; };
 		C4148C30CF5841598469E6ED /* Satoshi-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-BlackItalic.ttf"; path = "../src/assets/fonts/Satoshi-BlackItalic.ttf"; sourceTree = "<group>"; };
 		E36859E42BF4230500EE589A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3A874E32BF6807900976E64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3A874E52BF681BE00976E64 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
 		E3D45EA72B81D58A00B7D8BE /* Kickers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Kickers.entitlements; path = Kickers/Kickers.entitlements; sourceTree = "<group>"; };
 		E3FD95942BB375D0002F4660 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -88,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A874E62BF681BE00976E64 /* XcodeKit.framework in Frameworks */,
+				E3A874E42BF6807900976E64 /* UIKit.framework in Frameworks */,
 				24CE1D822EF03B876B335EDF /* Pods_Kickers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +136,8 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E3A874E52BF681BE00976E64 /* XcodeKit.framework */,
+				E3A874E32BF6807900976E64 /* UIKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				672F8B58B9F22942138B6BAA /* Pods_Kickers.framework */,
 				21283E9F41C3EB7B50A73EFF /* Pods_Kickers_KickersTests.framework */,
@@ -698,10 +706,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -782,10 +787,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

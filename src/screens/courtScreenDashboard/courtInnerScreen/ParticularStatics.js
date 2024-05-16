@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, StyleSheet, FlatList } from 'react-native';
 import { LineChart } from 'react-native-gifted-charts';
 import { Fonts } from '../../style';
+import Statics from './Statics';
 
 const YourComponent = () => {
   // Sample data for each court
@@ -107,26 +108,7 @@ const YourComponent = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Ingresos</Text>
-      {/* <FlatList
-        data={courtData}
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        keyExtractor={(item) => item.id.toString()}
-        renderItem={({ item }) => (
-          <TouchableOpacity
-            onPress={() => handleCourtSelection(item.id)}
-            style={[
-              styles.courtItem,
-              { borderBottomWidth: item.id === activeCourt ? 2 : 0 ,paddingLeft: index === 0 ? 0 : 10,},
-              
-            ]}
-          >
-            <Text style={[styles.courtText, { color: item.id === activeCourt ? '#408639' : '#9DA3B7' }]}>
-              {item.name}
-            </Text>
-          </TouchableOpacity>
-        )}
-      /> */}
+     
       <FlatList
   data={courtData}
   horizontal
@@ -149,8 +131,10 @@ const YourComponent = () => {
   )}
   showsHorizontalScrollIndicator={false} // Hide horizontal scroll indicator
 />
+<Statics name="Ingresos del mes pasado" firstNum="+$1,235" number='$10,321'/>
       {activeCourt && (
         <View style={styles.chartContainer}>
+          
           <LineChart
             data={courtData.find(court => court.id === activeCourt).data}
             spacing={6}
